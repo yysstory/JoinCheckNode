@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'socketio@0.9' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json joinnode@0.1.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'socketio@0.9', null ]
+8 verbose cache add name=undefined spec="socketio@0.9" args=["socketio@0.9",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'socketio@0.9',
+9 verbose parsed url   path: 'socketio@0.9',
+9 verbose parsed url   href: 'socketio@0.9' }
+10 verbose cache add name="socketio" spec="0.9" args=["socketio","0.9"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '0.9',
+11 verbose parsed url   path: '0.9',
+11 verbose parsed url   href: '0.9' }
+12 verbose addNamed [ 'socketio', '0.9' ]
+13 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+14 silly lockFile 77c2cea8-socketio-0-9 socketio@0.9
+15 verbose lock socketio@0.9 /home/yysstory/.npm/77c2cea8-socketio-0-9.lock
+16 silly addNameRange { name: 'socketio',
+16 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+16 silly addNameRange   hasData: false }
+17 verbose request where is /socketio
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 4cfb4cb79f7135b8
+20 verbose url raw /socketio
+21 verbose url resolving [ 'https://registry.npmjs.org/', './socketio' ]
+22 verbose url resolved https://registry.npmjs.org/socketio
+23 verbose request where is https://registry.npmjs.org/socketio
+24 info trying registry request attempt 1 at 12:44:17
+25 http GET https://registry.npmjs.org/socketio
+26 http 404 https://registry.npmjs.org/socketio
+27 verbose headers { date: 'Tue, 16 Dec 2014 03:44:17 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-ty68-TYO',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1418701457.582426,VS0,VE194',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Tue, 16 Dec 2014 03:44:17 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1418701457.582426,VS0,VE194',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 77c2cea8-socketio-0-9 socketio@0.9
+30 silly lockFile 77c2cea8-socketio-0-9 socketio@0.9
+31 error 404 404 Not Found: socketio
+31 error 404
+31 error 404 'socketio' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'joinnode'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.13.0-43-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install" "socketio@0.9"
+34 error cwd /home/yysstory/javaide/workspace/joinnode
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
